@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 4.13333rem;
+}
+
+header > div:nth-child(1) {
+  width: 100%;
+  height: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+header > div:nth-child(1) > div:nth-child(1) {
+  width: 0.44rem;
+  height: 0.44rem;
+  border-top: 1px solid #6f6f6f;
+  border-left: 1px solid #6f6f6f;
+  transform: rotate(-45deg);
+  margin-left: 0.4rem;
+}
+
+header > div:nth-child(1) > div:nth-child(2) {
+  margin-left: 3.50667rem;
+  font-size: 0.48rem;
+  line-height: 1.2rem;
+}
+
+header > div:nth-child(2) {
+  width: 100%;
+  height: 2.93333rem;
+}
+
+header > div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  flex: 1;
+  overflow: auto;
+  background-color: #f6f6f6;
+  padding-top: 0.21333rem;
+  padding-bottom: 0.21333rem;
+}
+
+section > nav {
+  width: 100%;
+  height: 3.41333rem;
+  background-color: white;
+  margin-bottom: 0.18667rem;
+}
+
+section > nav > ul:nth-child(1) {
+  width: 9.33333rem;
+  height: 1.2rem;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+section > nav > ul:nth-child(1) li {
+  line-height: 1.2rem;
+}
+
+section > nav > ul:nth-child(1) li:nth-child(1) {
+  font-size: 0.42667rem;
+}
+
+section > nav > ul:nth-child(1) li:nth-child(2) {
+  font-size: 0.32rem;
+  color: #999;
+}
+
+section > nav > ul:nth-child(2) {
+  height: 2.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section > nav > ul:nth-child(2) li {
+  height: 1.41333rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.32rem;
+}
+
+section > nav > ul:nth-child(2) li img {
+  width: 0.89333rem;
+  height: 0.73333rem;
+}
+
+section > .middle-nav {
+  width: 100%;
+  height: 6.64rem;
+  background-color: white;
+  margin-bottom: 0.21333rem;
+}
+
+section > .middle-nav ul {
+  margin: 0 auto;
+  width: 9.38667rem;
+  height: 2.2rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section > .middle-nav ul:nth-child(3) {
+  border: none;
+}
+
+section > .middle-nav ul li {
+  width: 1.28rem;
+  height: 1.14667rem;
+  font-size: 0.32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section > .middle-nav ul li img {
+  width: 0.58667rem;
+  height: 0.53333rem;
+}
+
+section .product-list {
+  height: 16.24rem;
+  background-color: white;
+}
+
+section .product-list .title {
+  font-size: 0.48rem;
+  line-height: 1.70667rem;
+  text-align: center;
+}
+
+section .product-list .product-content {
+  overflow: auto;
+  padding-left: 0.42667rem;
+}
+
+section .product-list .product-content .sliding-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .product-list dl {
+  height: 7.01333rem;
+}
+
+section .product-list dl dt {
+  width: 4.77333rem;
+  height: 4.77333rem;
+}
+
+section .product-list dl dt img {
+  width: 100%;
+  height: 100%;
+}
+
+section .product-list dl dd p:nth-child(1) {
+  font-size: 0.37333rem;
+  font-weight: bold;
+  line-height: 0.61333rem;
+}
+
+section .product-list dl dd p:nth-child(2) {
+  font-size: 0.32rem;
+  color: #7d7d7d;
+  line-height: 0.56rem;
+}
+
+section .product-list dl dd p:nth-child(3) {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #f33f40;
+}
+
+footer {
+  height: 1.46667rem;
+  background-image: url(../images/foot.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer dl {
+  width: 1.06667rem;
+  height: 1.12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer dl dt {
+  width: 0.61333rem;
+  height: 0.61333rem;
+}
+
+footer dl dt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+footer dl dd {
+  font-size: 0.32rem;
+}
